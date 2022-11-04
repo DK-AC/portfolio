@@ -19,5 +19,12 @@
 
 }
 
+@media screen and (max-width: 1128px) {
+
+    .projects {
+        justify-content: center;
+    }
+}
+
 
 

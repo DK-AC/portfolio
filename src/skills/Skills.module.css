@@ -18,3 +18,17 @@
 
 .title {
 }
+
+@media screen and  (max-width: 942px) {
+
+    .skillsContainer {
+        justify-content: center;
+    }
+
+    .skills {
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+}
