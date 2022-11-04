@@ -1,0 +1,25 @@
+.footerBlock {
+    height: 80px;
+    background-color: darkkhaki;
+}
+
+.footerContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.footerIcon {
+    display: flex;
+    gap: 10px;
+}
+
+.item {
+    width: 30px;
+    height: 30px;
+    background-color: rgba(62, 128, 0, 0.35);
+
+}
+
+.text {
+    font-weight: bold;
+}

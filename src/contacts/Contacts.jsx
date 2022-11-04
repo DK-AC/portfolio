@@ -10,14 +10,13 @@ export const Contacts = () => {
                 <div className={style.contacts}>
                     <form className={style.formContacts}>
                         <div className={style.contactsData}>
-                        <input type={'text'} />
-                        <input type={'text'}/>
-                        <textarea/>
-                        <input type="submit" value="Отправить"/>
+                            <input type={'text'}/>
+                            <input type={'text'}/>
+                            <textarea/>
+                            <input type="submit" value="Отправить"/>
                         </div>
                     </form>
                 </div>
-
             </div>
         </div>
     )

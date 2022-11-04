@@ -4,6 +4,7 @@ import {Main} from './main'
 import {Skills} from './skills'
 import {Projects} from './projects'
 import {Contacts} from './contacts'
+import {Footer} from './footer'
 
 function App() {
     return (
@@ -13,6 +14,7 @@ function App() {
             <Skills/>
             <Projects/>
             <Contacts/>
+            <Footer/>
         </div>
     )
 }
