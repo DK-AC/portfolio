@@ -1,15 +1,14 @@
 .projectsBlock {
-    height: 100vh;
     background-color: #b3dcf5;
 }
 
 .projectsContainer {
     flex-direction: column;
     justify-content: flex-start;
+    flex-wrap: nowrap;
 }
 
-.projects{
-    border: 1px solid;
+.projects {
     width: 100%;
     display: flex;
     justify-content: space-between;

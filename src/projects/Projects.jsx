@@ -18,6 +18,8 @@ export const Projects = () => {
                              description={loremDescription}/>
                     <Project title={'Movie'}
                              description={loremDescription}/>
+                    <Project title={'Movie'}
+                             description={loremDescription}/>
                 </div>
             </div>
         </div>

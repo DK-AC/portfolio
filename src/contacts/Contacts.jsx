@@ -9,12 +9,10 @@ export const Contacts = () => {
                 <h2>Contacts</h2>
                 <div className={style.contacts}>
                     <form className={style.formContacts}>
-                        <div className={style.contactsData}>
-                            <input type={'text'}/>
-                            <input type={'text'}/>
-                            <textarea/>
-                            <input type="submit" value="Отправить"/>
-                        </div>
+                        <input type={'text'}/>
+                        <input type={'text'}/>
+                        <textarea/>
+                        <input className={style.submitBtn} type="submit"/>
                     </form>
                 </div>
             </div>
