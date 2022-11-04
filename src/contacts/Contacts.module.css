@@ -1,0 +1,33 @@
+.contactsBlock {
+    height: 100vh;
+    background-color: aliceblue;
+}
+
+.contactsContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.contacts {
+    border: 1px solid;
+    width: 100%;
+    min-height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactsData {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: flex-end;
+
+
+}
+
+.formContacts {
+    width: 250px;
+    min-height: 200px;
+}
+
