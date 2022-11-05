@@ -2,19 +2,25 @@
     display: flex;
     flex-direction: column;
     width: 450px;
-    background-color: #eeeef5;
+    background: #252527;
     text-align: center;
-
+    margin-bottom: 30px;
 }
 
 
 .projectImage {
-    height: 300px;
+    height: 260px;
+    max-width: 100%;
     background-color: gray;
 
     display: flex;
     justify-content: center;
     align-items: center;
+    vertical-align: middle;
+}
+
+.projectInfo {
+    padding: 25px 20px;
 }
 
 .viewBtn {
@@ -24,8 +30,19 @@
 }
 
 .title {
-
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin: 0 0 5px;
+    color: #fff;
+    line-height: 1.2;
+    font-weight: 700;
 }
 
 .description {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: 1.8;
+    color: #fff !important;
+    font-size: 13px;
 }

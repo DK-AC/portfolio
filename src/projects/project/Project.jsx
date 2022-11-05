@@ -7,8 +7,11 @@ export const Project = ({title, description}) => {
             <div className={style.projectImage}>
                 <a href="/" className={style.viewBtn}>Watch</a>
             </div>
-            <h3 className={style.title}>{title}</h3>
-            <span className={style.description}>{description}</span>
+            <div className={style.projectInfo}>
+                <h3 className={style.title}>{title}</h3>
+                <span className={style.description}>{description}</span>
+            </div>
+
         </div>
 
     )
