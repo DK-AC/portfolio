@@ -1,15 +1,15 @@
 import React from 'react'
-import style from './Project.module.css'
+import styleProject from './Project.module.css'
 
-export const Project = ({title, description}) => {
+export const Project = ({title, description, style}) => {
     return (
-        <div className={style.project}>
-            <div className={style.projectImage}>
-                <a href="/" className={style.viewBtn}>Watch</a>
+        <div className={styleProject.project}>
+            <div className={styleProject.projectImage} style={style}>
+                <a href="/" className={styleProject.viewBtn}>Watch</a>
             </div>
-            <div className={style.projectInfo}>
-                <h3 className={style.title}>{title}</h3>
-                <span className={style.description}>{description}</span>
+            <div className={styleProject.projectInfo}>
+                <h3 className={styleProject.title}>{title}</h3>
+                <span className={styleProject.description}>{description}</span>
             </div>
 
         </div>
