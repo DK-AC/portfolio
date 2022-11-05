@@ -1,0 +1,9 @@
+.title h2 {
+    margin: 0 0 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 36px;
+    color: #fff;
+    line-height: 1.2;
+    letter-spacing: 5px;
+    text-transform: capitalize;
+}

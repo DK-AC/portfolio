@@ -1,5 +1,6 @@
 .projectsBlock {
-    background-color: #b3dcf5;
+    background-color: #1f1f20;
+    padding: 100px 0;
 }
 
 .projectsContainer {
@@ -13,10 +14,6 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-}
-
-.title {
-
 }
 
 @media screen and (max-width: 1128px) {

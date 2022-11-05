@@ -28,8 +28,14 @@
     width: 100%;
 }
 
-.submitBtn{
+.submitBtn {
     padding: 10px 20px;
 }
 
+
+@media screen and (max-width: 752px) {
+    .formContacts {
+        width: 90%;
+    }
+}
 
