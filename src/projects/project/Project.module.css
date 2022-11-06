@@ -10,7 +10,7 @@
 
 .projectImage {
     height: 260px;
-    max-width: 100%;
+    width: 100%;
     background-color: gray;
 
     display: flex;
@@ -19,8 +19,19 @@
     vertical-align: middle;
     margin-bottom: 20px;
     background-size: cover;
-    background-position: center;
     background-repeat: no-repeat;
+    position: relative;
+}
+
+.projectImage::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.4;
 }
 
 .projectInfo {
@@ -28,8 +39,19 @@
 }
 
 .viewBtn {
-    background-color: #eeeef5;
-    padding: 10px 20px;
+    background-color: #1f1f20;
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+    padding: 7px 20px;
+    color: #fff;
+
+    z-index: 1;
 
 }
 
@@ -49,4 +71,11 @@
     line-height: 1.8;
     color: #fff !important;
     font-size: 13px;
+}
+
+@media screen and (max-width: 519px) {
+    .projectImage {
+        block-size: auto;
+        aspect-ratio: 2/1;
+    }
 }

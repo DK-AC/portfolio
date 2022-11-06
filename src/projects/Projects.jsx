@@ -5,6 +5,7 @@ import {Project} from './project'
 import {Title} from '../components/title'
 import cards from './../assets/image/Cards.png'
 import socialNetwork from './../assets/image/SocialNetwork.png'
+import movies from './../assets/image/Movies.png'
 
 export const Projects = () => {
 
@@ -13,6 +14,9 @@ export const Projects = () => {
     }
     const socialNetworkImage = {
         backgroundImage: `url(${socialNetwork})`,
+    }
+    const MoviesImage = {
+        backgroundImage: `url(${movies})`,
     }
 
     const loremDescription = `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet aspernatur blanditiis consequatur culpa, cumque deserunt dolore doloribus eligendi eos est fuga molestiae natus non placeat quae quas, quisquam similique velit.`
@@ -26,9 +30,9 @@ export const Projects = () => {
                              description={loremDescription}
                              style={socialNetworkImage}
                     />
-                    <Project title={'Todolist'}
+                    <Project title={'Movies'}
                              description={loremDescription}
-                             style={cardsImage}
+                             style={MoviesImage}
                     />
                     <Project title={'Cards'}
                              description={loremDescription}
