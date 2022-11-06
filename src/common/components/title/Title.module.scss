@@ -6,7 +6,7 @@
     position: relative;
 
     h2 {
-        @include text($titleFontFamily, 30px, 1.2, 700, capitalize, 5);
+        @include text($titleFontFamily, 30px, 1.2, 700, capitalize, 5px);
         margin: 0 0 30px;
     }
 

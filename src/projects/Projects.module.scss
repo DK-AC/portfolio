@@ -10,10 +10,10 @@
         flex-wrap: nowrap;
 
         .projects {
-            width: 100%;
             display: flex;
             justify-content: space-between;
             align-items: flex-start;
+            width: 100%;
             flex-wrap: wrap;
             margin-top: 30px;
             @media screen and (max-width: 1128px) {
