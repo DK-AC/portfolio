@@ -1,0 +1,40 @@
+@import 'src/common/styles/sass/variables';
+@import 'src/common/styles/sass/mixins';
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: $bgSecondColor;
+    width: 250px;
+    margin-bottom: 30px;
+
+    .icon {
+        width: 50px;
+        height: 50px;
+        margin: 20px;
+    }
+
+    .info {
+        padding: 25px 20px;
+
+        .title {
+            @include text($titleFontFamily, 16px, 1.2, 700, capitalize, 1px);
+            margin: 0 0 5px;
+        }
+
+        .description {
+            @include text($textFontFamily, 13px, 1.8, 300, none, 0);
+        }
+    }
+
+
+}
+
+
+
+
+
+
+
