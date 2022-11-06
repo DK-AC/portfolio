@@ -1,10 +1,12 @@
+@import 'src/common/styles/sass/variables';
+@import 'src/common/styles/sass/mixins';
+
 .projectsBlock {
-    background-color: #1f1f20;
+    background-color: $bgColor;
     padding: 100px 0;
 
     .projectsContainer {
         flex-direction: column;
-        justify-content: flex-start;
         flex-wrap: nowrap;
 
         .projects {
@@ -15,7 +17,7 @@
             flex-wrap: wrap;
             margin-top: 30px;
             @media screen and (max-width: 1128px) {
-                    justify-content: center;
+                justify-content: center;
             }
         }
     }

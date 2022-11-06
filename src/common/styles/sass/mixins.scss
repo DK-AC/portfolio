@@ -1,0 +1,18 @@
+@import './variables';
+
+@mixin text($fontFamily,$fontSize,$lineHeight,$fontWeight,$textTransform,$letterSpacing) {
+    font-family: $fontFamily;
+    font-size: $fontSize;
+    color: $textColor;
+    line-height: $lineHeight;
+    font-weight: $fontWeight;
+    text-transform: $textTransform;
+    letter-spacing: $letterSpacing;
+}
+
+@mixin flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
