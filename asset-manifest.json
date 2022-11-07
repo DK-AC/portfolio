@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/DK-AC/portfolio/static/css/main.7d2505fa.css",
-    "main.js": "/DK-AC/portfolio/static/js/main.79cec163.js",
-    "static/media/Movies.png": "/DK-AC/portfolio/static/media/Movies.2ecf399d3128bf71ee41.png",
-    "static/media/SocialNetwork.png": "/DK-AC/portfolio/static/media/SocialNetwork.dce59ff847a05acc71a9.png",
-    "static/media/avatar.jpg": "/DK-AC/portfolio/static/media/avatar.d264dc1c7d262a1b5600.jpg",
-    "static/media/Cards.png": "/DK-AC/portfolio/static/media/Cards.9822b3b8507e50898647.png",
-    "static/media/react-svgrepo-com.svg": "/DK-AC/portfolio/static/media/react-svgrepo-com.fdd3331d261ad6d5e1c92448737aa2aa.svg",
-    "static/media/axios-seeklogo.com.svg": "/DK-AC/portfolio/static/media/axios-seeklogo.com.ee17ffdf661d2d72cdf2a68327202a1f.svg",
-    "static/media/redux-svgrepo-com.svg": "/DK-AC/portfolio/static/media/redux-svgrepo-com.609190d142776d97540d56376fce6a2c.svg",
-    "static/media/jest-svgrepo-com.svg": "/DK-AC/portfolio/static/media/jest-svgrepo-com.37d6cec8e2a46763874c9d05614bf722.svg",
-    "static/media/scss2-svgrepo-com.svg": "/DK-AC/portfolio/static/media/scss2-svgrepo-com.1074d0351e670acb335441f19535b7ca.svg",
-    "static/media/typescript-svgrepo-com.svg": "/DK-AC/portfolio/static/media/typescript-svgrepo-com.0862127c02a57f6d39dabe211ae436ab.svg",
-    "static/media/github-svgrepo-com.svg": "/DK-AC/portfolio/static/media/github-svgrepo-com.fc0ffe042a9582d2a394e1c609baa9f2.svg",
-    "static/media/bootstrap-svgrepo-com.svg": "/DK-AC/portfolio/static/media/bootstrap-svgrepo-com.d1ee6a52935d23cb9c25dde01657ef84.svg",
-    "static/media/material-ui-svgrepo-com.svg": "/DK-AC/portfolio/static/media/material-ui-svgrepo-com.456bfb02539777f812137c514d397868.svg",
-    "index.html": "/DK-AC/portfolio/index.html",
-    "main.7d2505fa.css.map": "/DK-AC/portfolio/static/css/main.7d2505fa.css.map",
-    "main.79cec163.js.map": "/DK-AC/portfolio/static/js/main.79cec163.js.map"
+    "main.css": "/portfolio/static/css/main.7d2505fa.css",
+    "main.js": "/portfolio/static/js/main.a9d570f2.js",
+    "static/media/Movies.png": "/portfolio/static/media/Movies.2ecf399d3128bf71ee41.png",
+    "static/media/SocialNetwork.png": "/portfolio/static/media/SocialNetwork.dce59ff847a05acc71a9.png",
+    "static/media/avatar.jpg": "/portfolio/static/media/avatar.d264dc1c7d262a1b5600.jpg",
+    "static/media/Cards.png": "/portfolio/static/media/Cards.9822b3b8507e50898647.png",
+    "static/media/react-svgrepo-com.svg": "/portfolio/static/media/react-svgrepo-com.fdd3331d261ad6d5e1c92448737aa2aa.svg",
+    "static/media/axios-seeklogo.com.svg": "/portfolio/static/media/axios-seeklogo.com.ee17ffdf661d2d72cdf2a68327202a1f.svg",
+    "static/media/redux-svgrepo-com.svg": "/portfolio/static/media/redux-svgrepo-com.609190d142776d97540d56376fce6a2c.svg",
+    "static/media/jest-svgrepo-com.svg": "/portfolio/static/media/jest-svgrepo-com.37d6cec8e2a46763874c9d05614bf722.svg",
+    "static/media/scss2-svgrepo-com.svg": "/portfolio/static/media/scss2-svgrepo-com.1074d0351e670acb335441f19535b7ca.svg",
+    "static/media/typescript-svgrepo-com.svg": "/portfolio/static/media/typescript-svgrepo-com.0862127c02a57f6d39dabe211ae436ab.svg",
+    "static/media/github-svgrepo-com.svg": "/portfolio/static/media/github-svgrepo-com.fc0ffe042a9582d2a394e1c609baa9f2.svg",
+    "static/media/bootstrap-svgrepo-com.svg": "/portfolio/static/media/bootstrap-svgrepo-com.d1ee6a52935d23cb9c25dde01657ef84.svg",
+    "static/media/material-ui-svgrepo-com.svg": "/portfolio/static/media/material-ui-svgrepo-com.456bfb02539777f812137c514d397868.svg",
+    "index.html": "/portfolio/index.html",
+    "main.7d2505fa.css.map": "/portfolio/static/css/main.7d2505fa.css.map",
+    "main.a9d570f2.js.map": "/portfolio/static/js/main.a9d570f2.js.map"
   },
   "entrypoints": [
     "static/css/main.7d2505fa.css",
-    "static/js/main.79cec163.js"
+    "static/js/main.a9d570f2.js"
   ]
 }
