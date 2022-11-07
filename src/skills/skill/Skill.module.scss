@@ -9,6 +9,9 @@
     background: $bgSecondColor;
     width: 250px;
     margin-bottom: 30px;
+    @media screen and (max-width: 320px) {
+        width: 100%;
+    }
 
     .square {
         display: flex;
