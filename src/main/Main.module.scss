@@ -1,0 +1,129 @@
+@import 'src/common/styles/sass/variables.scss';
+@import 'src/common/styles/sass/mixins';
+
+.heroBannerContent {
+    height: 100vh;
+    background-color: $bgColor;
+    position: relative;
+    z-index: 1;
+    @media screen and (max-width: 767px) {
+        height: auto;
+        padding: 100px 0;
+    }
+
+    .dTable {
+        width: 100%;
+
+        .vAlignMiddle {
+            vertical-align: middle;
+        }
+
+        .dTableCell {
+            display: table-cell !important;
+        }
+
+        .heroBannerLeft {
+            width: 60%;
+
+            @media screen and (max-width: 767px) {
+                width: 100%;
+                padding-bottom: 60px;
+            }
+
+            .intro {
+                width: 90%;
+
+                @media screen and (max-width: 767px) {
+                    width: 100%;
+                    padding-bottom: 60px;
+                }
+
+                span {
+                    @include text($textFontFamily, 16px, 1.8, 400, capitalize, 0);
+                }
+
+                h1 {
+                    @include text($titleFontFamily, 50px, 1.2, 700, none, 5px);
+                    padding: 10px 0 10px;
+                    margin: 0;
+
+                    @media screen and (max-width: 767px) {
+                        font-size: 40px;
+                    }
+
+                    span {
+                        @include text($titleFontFamily, 50px, 1.2, 700, none, 5px);
+                        display: inline-block;
+                        position: relative;
+
+                        @media screen and (max-width: 767px) {
+                            font-size: 40px;
+                        }
+
+                        &::after {
+                            content: "";
+                            position: absolute;
+                            left: 0;
+                            right: 0;
+                            bottom: 0;
+                            height: 20px;
+                            width: 100%;
+                            z-index: -1;
+                            background: #4e93e6;
+                        }
+                    }
+                }
+
+                p {
+                    font-size: 27px;
+                    margin: 0;
+                    color: $textColor;
+                }
+            }
+        }
+
+        .heroBannerRight {
+            width: 40%;
+
+            @media screen and (max-width: 767px) {
+                display: block !important;
+                width: 100%;
+            }
+
+            .heroRight {
+                display: table;
+                margin: 0 auto;
+
+                img {
+                    max-height: 430px;
+                    @media screen and (max-width: 767px) {
+                        max-height: 300px;
+                    }
+                }
+            }
+        }
+
+
+    }
+}
+
+
+.dFlex {
+    display: flex !important;
+}
+
+.vAlignCenter {
+    align-items: center !important;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
