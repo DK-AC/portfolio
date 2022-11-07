@@ -1,8 +1,11 @@
+@import "src/common/styles/sass/variables";
+
+
 .footerBlock {
     text-align: center;
     padding: 40px 0;
     color: #FFF;
-    background: #252527;
+    background: $bgColor;
 
     .footerContainer {
         flex-direction: column;
