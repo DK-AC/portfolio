@@ -24,7 +24,7 @@ export const Projects = () => {
     return (
         <div className={style.projectsBlock}>
             <div className={`${styleContainer.container} ${style.projectsContainer}`}>
-                <Title name={'Projects'}/>
+                <Title name={'projects'}/>
                 <div className={style.projects}>
                     <Project title={'Social Network'}
                              description={loremDescription}

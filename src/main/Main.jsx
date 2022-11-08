@@ -6,7 +6,9 @@ import avatar from './../assets/image/avatar.jpg'
 export const Main = () => {
     return (
         <div
-            className={`${style.heroBannerContent} ${style.vAlignCenter} ${style.dFlex}`}>
+            className={`${style.heroBannerContent} ${style.vAlignCenter} ${style.dFlex}`}
+            id={'main'}
+        >
             <div className={styleContainer.container}>
                 <div className={style.dTable}>
                     <div

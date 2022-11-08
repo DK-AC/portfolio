@@ -20,7 +20,7 @@ export const Skills = () => {
     return (
         <div className={style.skillsBlock}>
             <div className={`${styleContainer.container} ${style.container}`}>
-                <Title name={'Skills'}/>
+                <Title name={'skills'}/>
                 <div className={style.skills}>
                     <Skill title={'react'}
                            description={loremDescription}
