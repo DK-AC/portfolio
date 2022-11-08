@@ -2,7 +2,7 @@
 
 .nav {
     display: flex;
-    width: 30%;
+    width: 40%;
     justify-content: space-around;
     @media screen and (max-width: 767px) {
         min-width: 60%;
@@ -14,12 +14,9 @@
         min-width: 100%;
     }
 
-
-
     .item {
         color: $textColor;
         text-decoration: none;
         text-transform: capitalize;
     }
-
 }

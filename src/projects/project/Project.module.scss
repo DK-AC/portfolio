@@ -2,18 +2,12 @@
 @import 'src/common/styles/sass/mixins';
 
 .project {
-    display: flex;
-    flex-direction: column;
-    width: 450px;
-    background: $bgColor;
-    text-align: center;
-    margin-bottom: 30px;
+    @include module(450px, $bgColor);
 
     .image {
         @include flexCenter();
 
-        height: 260px;
-        width: 100%;
+        @include widthHeight(100%, 260px);
 
         vertical-align: middle;
         margin-bottom: 20px;
@@ -22,13 +16,8 @@
         position: relative;
 
         &::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            right: 0;
-            bottom: 0;
-            left: 0;
-            background-color: $bgColor;
+            @include contentBefore($bgColor, 0);
+
             opacity: 0.4;
         }
 

@@ -1,10 +1,11 @@
+@import "sass/mixins.scss";
+
 .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    height: 100%;
-    width: 80%;
+    @include widthHeight(80%, 100%);
 
     margin: 0 auto;
 

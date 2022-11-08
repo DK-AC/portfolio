@@ -2,37 +2,29 @@
 @import 'src/common/styles/sass/mixins';
 
 .skill {
-    display: flex;
-    flex-direction: column;
+    @include module(250px, $bgSecondColor);
+
     align-items: center;
-    text-align: center;
-    background: $bgSecondColor;
-    width: 250px;
-    margin-bottom: 30px;
     @media screen and (max-width: 320px) {
         width: 100%;
     }
 
     .square {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 70px;
-        height: 70px;
+        @include flexCenter();
+
+        @include widthHeight(70px, 70px);
+
         background-color: rgba(255, 255, 255, 0.1);
         transform: rotate(45deg);
         margin: 30px 30px;
 
         .icon {
-            width: 50px;
-            height: 50px;
+            @include widthHeight(50px, 50px);
+
             margin: 20px;
             transform: rotate(-45deg);
-
         }
-
     }
-
 
     .info {
         padding: 25px 20px;
@@ -46,8 +38,6 @@
             @include text($textFontFamily, 13px, 1.8, 300, none, 0);
         }
     }
-
-
 }
 
 

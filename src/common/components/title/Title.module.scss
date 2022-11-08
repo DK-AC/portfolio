@@ -11,13 +11,12 @@
     }
 
     &::before {
-        content: '';
-        width: 55px;
-        height: 1px;
-        background-color: $primaryColor;
-        position: absolute;
-        bottom: 0;
-        left: 50%;
+        @include widthHeight(55px, 1px);
+
+        @include contentBefore($primaryColor, 50%);
+
+        top: auto;
+        right: auto;
         transform: translate(-50%, 50%);
     }
 }

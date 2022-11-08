@@ -1,23 +1,23 @@
 @import "src/common/styles/sass/variables";
+@import "src/common/styles/sass/mixins";
 
 
 .footerBlock {
     text-align: center;
     padding: 40px 0;
-    color: #FFF;
+    color: $textColor;
     background: $bgColor;
 
     .footerContainer {
-        flex-direction: column;
-        justify-content: flex-start;
+        @include columnFlexStart();
 
         .logo {
+            display: block;
             letter-spacing: 3px;
-            color: #fff;
+            color: $textColor;
             font-size: 22px;
             font-weight: 700;
             margin-bottom: 20px;
-            display: block;
         }
 
         .socialLinks {
@@ -35,7 +35,7 @@
                 display: block;
                 text-align: center;
                 font-size: 14px;
-                color: rgba(255, 255, 255, 1);
+                color: $textColor;
                 text-decoration: none;
             }
         }

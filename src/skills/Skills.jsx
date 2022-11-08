@@ -1,6 +1,6 @@
 import React from 'react'
 import style from './Skills.module.scss'
-import styleContainer from './../common/styles/Container.module.css'
+import styleContainer from '../common/styles/Container.module.scss'
 import {Skill} from './skill'
 import {Title} from '../common/components/title'
 import reactIcon from './../assets/icons/react-svgrepo-com.svg'
@@ -56,12 +56,10 @@ export const Skills = () => {
                            description={loremDescription}
                            icon={jestIcon}
                     />
-
                     <Skill title={'git / github'}
                            description={loremDescription}
                            icon={githubIcon}
                     />
-
                 </div>
             </div>
 

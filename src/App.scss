@@ -1,10 +1,12 @@
+@import "common/styles/sass/variables";
+
 * {
     box-sizing: border-box;
 }
 
 body {
     font: 400 14px/1.8 'Poppins', sans-serif;
-    color: #fff;
+    color: $textColor;
     overflow-x: hidden;
-    background-color: #1f1f20;
+    background-color: $bgColor;
 }
