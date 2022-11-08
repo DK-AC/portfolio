@@ -18,7 +18,7 @@ export const Skills = () => {
     const loremDescription = `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet aspernatur blanditiis consequatur culpa, cumque deserunt dolore doloribus eligendi eos est fuga molestiae natus non placeat quae quas, quisquam similique velit.`
 
     return (
-        <div className={style.skillsBlock}>
+        <div id={'skills'} className={style.skillsBlock}>
             <div className={`${styleContainer.container} ${style.container}`}>
                 <Title name={'skills'}/>
                 <div className={style.skills}>

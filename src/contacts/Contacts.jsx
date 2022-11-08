@@ -5,7 +5,7 @@ import {Title} from '../common/components/title'
 
 export const Contacts = () => {
     return (
-        <div className={style.contactsBlock}>
+        <div id={'contacts'} className={style.contactsBlock}>
             <div className={`${styleContainer.container} ${style.contactsContainer}`}>
                 <Title name={'contact'}/>
                 <div className={style.contacts}>

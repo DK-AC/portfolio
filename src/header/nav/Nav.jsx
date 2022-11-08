@@ -7,7 +7,7 @@ export const Nav = () => {
             <a className={style.item} href={'#main'}>main</a>
             <a className={style.item} href={'#skills'}>skills</a>
             <a className={style.item} href={'#projects'}>projects</a>
-            <a className={style.item} href={'#contact'}>contacts</a>
+            <a className={style.item} href={'#contacts'}>contacts</a>
         </div>
     )
 }

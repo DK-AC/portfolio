@@ -22,7 +22,7 @@ export const Projects = () => {
     const loremDescription = `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet aspernatur blanditiis consequatur culpa, cumque deserunt dolore doloribus eligendi eos est fuga molestiae natus non placeat quae quas, quisquam similique velit.`
 
     return (
-        <div className={style.projectsBlock}>
+        <div id={'projects'} className={style.projectsBlock}>
             <div className={`${styleContainer.container} ${style.projectsContainer}`}>
                 <Title name={'projects'}/>
                 <div className={style.projects}>
