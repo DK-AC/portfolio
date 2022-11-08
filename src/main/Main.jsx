@@ -2,6 +2,7 @@ import React from 'react'
 import style from './Main.module.scss'
 import styleContainer from '../common/styles/Container.module.scss'
 import avatar from './../assets/image/avatar.jpg'
+import {Particle} from '../common/components/particle'
 
 export const Main = () => {
     return (
@@ -9,7 +10,9 @@ export const Main = () => {
             className={`${style.heroBannerContent} ${style.vAlignCenter} ${style.dFlex}`}
             id={'main'}
         >
+
             <div className={styleContainer.container}>
+                <Particle/>
                 <div className={style.dTable}>
                     <div
                         className={`${style.heroBannerLeft} ${style.dTableCell} ${style.vAlignMiddle}`}>
@@ -19,6 +22,7 @@ export const Main = () => {
                             <p>A Frontend Developer</p>
                         </div>
                     </div>
+
                     <div
                         className={`${style.heroBannerRight} ${style.dTableCell} ${style.vAlignMiddle}`}>
                         <div className={style.heroRight}>
