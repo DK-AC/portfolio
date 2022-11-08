@@ -6,7 +6,7 @@ import {Projects} from './projects'
 import {Contacts} from './contacts'
 import {Footer} from './footer'
 
-function App() {
+export const App = () => {
     return (
         <div className="App">
             <Header/>
@@ -19,4 +19,3 @@ function App() {
     )
 }
 
-export default App
