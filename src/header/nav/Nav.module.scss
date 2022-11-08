@@ -4,10 +4,22 @@
     display: flex;
     width: 30%;
     justify-content: space-around;
+    @media screen and (max-width: 767px) {
+        min-width: 60%;
+    }
+    @media screen and (max-width: 520px) {
+        min-width: 80%;
+    }
+    @media screen and (max-width: 320px) {
+        min-width: 100%;
+    }
+
+
 
     .item {
         color: $textColor;
         text-decoration: none;
         text-transform: capitalize;
     }
+
 }
