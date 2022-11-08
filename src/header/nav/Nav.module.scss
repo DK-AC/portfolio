@@ -1,0 +1,13 @@
+@import "src/common/styles/sass/variables";
+
+.nav {
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+
+    .item {
+        color: $textColor;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+}
