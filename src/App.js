@@ -9,12 +9,12 @@ import {Footer} from './footer'
 export const App = () => {
     return (
         <div className="App">
-            <Header/>
-            <Main/>
-            <Skills/>
-            <Projects/>
-            <Contacts/>
-            <Footer/>
+                <Header/>
+                <Main/>
+                <Skills/>
+                <Projects/>
+                <Contacts/>
+                <Footer/>
         </div>
     )
 }

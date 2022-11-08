@@ -18,11 +18,12 @@
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-                min-width: 60%;
+                width: 540px;
                 gap: 10px;
                 margin-top: 30px;
-                @media screen and (max-width: 920px) {
-                    width: 90%;
+
+                @media screen and (max-width: 680px) {
+                    width: 100%
                 }
 
                 .formControl {
@@ -59,7 +60,7 @@
 
                 .formControlTextArea {
                     padding: 15px;
-                    height: auto
+                    min-height: 150px
                 }
 
                 .submitBtn {

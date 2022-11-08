@@ -16,7 +16,7 @@ export const Footer = () => {
                            className={style.socialIcon}>github</a></li>
 
                 </ul>
-                <span className={style.copyright}>&copy; 2022 Все права защищены.</span>
+                <span className={style.copyright}>&copy; 2022 All Rights Reserved.</span>
             </div>
         </div>
     )

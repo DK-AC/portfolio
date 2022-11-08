@@ -12,6 +12,7 @@ import bootstrapIcon from './../assets/icons/bootstrap-svgrepo-com.svg'
 import reduxIcon from './../assets/icons/redux-svgrepo-com.svg'
 import jestIcon from './../assets/icons/jest-svgrepo-com.svg'
 import axiosIcon from './../assets/icons/axios-seeklogo.com.svg'
+import {Fade} from 'react-awesome-reveal'
 
 export const Skills = () => {
 
@@ -21,48 +22,50 @@ export const Skills = () => {
         <div id={'skills'} className={style.skillsBlock}>
             <div className={`${styleContainer.container} ${style.container}`}>
                 <Title name={'skills'}/>
-                <div className={style.skills}>
-                    <Skill title={'react'}
-                           description={loremDescription}
-                           icon={reactIcon}
-                    />
-                    <Skill title={'redux thunk / toolkit'}
-                           description={loremDescription}
-                           icon={reduxIcon}
-                    />
-                    <Skill title={'javascript / ts'}
-                           description={loremDescription}
-                           icon={typescriptIcon}
-                    />
-                    <Skill title={'axios / rest api'}
-                           description={loremDescription}
-                           icon={axiosIcon}
-                    />
-                    <Skill title={'material / ant'}
-                           description={loremDescription}
-                           icon={materialIcon}
-                    />
-                    <Skill title={'react hooks'}
-                           description={loremDescription}/>
-                    <Skill title={'html & css / scss'}
-                           description={loremDescription}
-                           icon={scssIcon}
-                    />
-                    <Skill title={'bem / bootstrap'}
-                           description={loremDescription}
-                           icon={bootstrapIcon}
-                    />
-                    <Skill title={'tdd / jest / storybook'}
-                           description={loremDescription}
-                           icon={jestIcon}
-                    />
-                    <Skill title={'git / github'}
-                           description={loremDescription}
-                           icon={githubIcon}
-                    />
-                </div>
+                <Fade>
+                    <div className={style.skills}>
+                        <Skill title={'react'}
+                               description={loremDescription}
+                               icon={reactIcon}
+                        />
+                        <Skill title={'redux thunk / toolkit'}
+                               description={loremDescription}
+                               icon={reduxIcon}
+                        />
+                        <Skill title={'javascript / ts'}
+                               description={loremDescription}
+                               icon={typescriptIcon}
+                        />
+                        <Skill title={'axios / rest api'}
+                               description={loremDescription}
+                               icon={axiosIcon}
+                        />
+                        <Skill title={'material / ant'}
+                               description={loremDescription}
+                               icon={materialIcon}
+                        />
+                        <Skill title={'react hooks'}
+                               description={loremDescription}/>
+                        <Skill title={'html & css / scss'}
+                               description={loremDescription}
+                               icon={scssIcon}
+                        />
+                        <Skill title={'bem / bootstrap'}
+                               description={loremDescription}
+                               icon={bootstrapIcon}
+                        />
+                        <Skill title={'tdd / jest / storybook'}
+                               description={loremDescription}
+                               icon={jestIcon}
+                        />
+                        <Skill title={'git / github'}
+                               description={loremDescription}
+                               icon={githubIcon}
+                        />
+                    </div>
+                </Fade>
             </div>
-
-        </div>)
+        </div>
+    )
 }
 

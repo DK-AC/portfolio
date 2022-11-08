@@ -36,12 +36,15 @@
             .intro {
                 width: 90%;
 
-                @media screen and (max-width: 767px) {
-                    @include widthPaddingBottom();
-                }
 
                 span {
                     @include text($textFontFamily, 16px, 1.8, 400, capitalize, 0);
+                    @media screen and (max-width: 767px) {
+                        display: flex;
+                        justify-content: center;
+                        font-size: 16px;
+                    }
+
                 }
 
                 h1 {
@@ -52,6 +55,9 @@
                     @media screen and (max-width: 767px) {
                         font-size: 40px;
                     }
+                    @media screen and (max-width: 416px) {
+                        font-size: 30px;
+                    }
 
                     span {
                         @include text($titleFontFamily, 50px, 1.2, 700, none, 5px);
@@ -60,6 +66,9 @@
 
                         @media screen and (max-width: 767px) {
                             font-size: 40px;
+                        }
+                        @media screen and (max-width: 416px) {
+                            font-size: 30px;
                         }
 
                         &::before {
@@ -78,6 +87,9 @@
                     font-size: 27px;
                     margin: 0;
                     color: $textColor;
+                    @media screen and (max-width: 767px) {
+                        font-size: 20px;
+                    }
                 }
             }
         }
