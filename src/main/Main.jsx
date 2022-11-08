@@ -22,6 +22,7 @@ export const Main = () => {
                         className={`${style.heroBannerRight} ${style.dTableCell} ${style.vAlignMiddle}`}>
                         <div className={style.heroRight}>
                             <img src={avatar} alt="avatar"/>
+                            <span></span>
                         </div>
                     </div>
                 </div>

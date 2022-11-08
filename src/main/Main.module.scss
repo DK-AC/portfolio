@@ -83,7 +83,7 @@
         }
 
         .heroBannerRight {
-            width: 40%;
+            width: 20%;
 
             @media screen and (max-width: 767px) {
                 display: block !important;
@@ -93,12 +93,26 @@
             .heroRight {
                 display: table;
                 margin: 0 auto;
+                position: relative;
 
                 img {
                     max-height: 430px;
                     @media screen and (max-width: 767px) {
                         max-height: 300px;
                     }
+                }
+
+                span {
+                    position: absolute;
+                    top: 0;
+                    bottom: 0;
+                    z-index: -9;
+                    height: 100%;
+                    width: 92%;
+                    border: 5px solid #4e93e6;
+                    transform: scale(1.13) translate(10%, 0px);
+                    left: 0;
+                    right: 0;
                 }
             }
         }
