@@ -12,6 +12,8 @@ export const Nav = () => {
                 smooth={true}
                 offset={1}
                 duration={700}
+                onClick={() => console.log('Start Events')}
+
             >
                 main
             </Link>

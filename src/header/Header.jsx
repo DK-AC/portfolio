@@ -5,6 +5,7 @@ import {Nav} from './nav'
 export const Header = () => {
     return (
         <div className={style.header}>
+            {/*<BurgerNav/>*/}
             <Nav/>
         </div>
     )

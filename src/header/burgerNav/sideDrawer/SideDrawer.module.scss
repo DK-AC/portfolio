@@ -1,0 +1,24 @@
+@import "src/common/styles/sass/variables";
+
+a {
+    color: $textColor;
+    text-decoration: none;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.active{
+    color: $primaryColor;
+    font-weight: 700;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30vh;
+    filter: alpha(opacity=50) ;
+    background-color: $bgSecondColor;
+    font-size: 18px;
+}
