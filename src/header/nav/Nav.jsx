@@ -8,20 +8,14 @@ export const Nav = () => {
             <Link
                 activeClass={style.active}
                 to="main"
-                spy={true}
-                smooth={true}
                 offset={1}
                 duration={700}
-                onClick={() => console.log('Start Events')}
-
             >
                 main
             </Link>
             <Link
                 activeClass={style.active}
                 to="skills"
-                spy={true}
-                smooth={true}
                 offset={1}
                 duration={700}
             >
@@ -30,8 +24,6 @@ export const Nav = () => {
             <Link
                 activeClass={style.active}
                 to="projects"
-                spy={true}
-                smooth={true}
                 offset={1}
                 duration={700}
             >
@@ -40,8 +32,6 @@ export const Nav = () => {
             <Link
                 activeClass={style.active}
                 to="contacts"
-                spy={true}
-                smooth={true}
                 offset={1}
                 duration={700}
             >

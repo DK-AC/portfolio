@@ -15,8 +15,6 @@ export const SideDrawer = ({open, onClose}) => {
                 <Link
                     activeClass={style.active}
                     to="main"
-                    spy={true}
-                    smooth={true}
                     offset={1}
                     duration={1000}
                     onClick={() => onClose(false)}
@@ -27,8 +25,6 @@ export const SideDrawer = ({open, onClose}) => {
                 <Link
                     activeClass={style.active}
                     to="skills"
-                    spy={true}
-                    smooth={true}
                     offset={1}
                     duration={1000}
                     onClick={() => onClose(false)}
@@ -38,8 +34,6 @@ export const SideDrawer = ({open, onClose}) => {
                 <Link
                     activeClass={style.active}
                     to="projects"
-                    spy={true}
-                    smooth={true}
                     offset={1}
                     duration={1000}
                     onClick={() => onClose(false)}
@@ -49,8 +43,6 @@ export const SideDrawer = ({open, onClose}) => {
                 <Link
                     activeClass={style.active}
                     to="contacts"
-                    spy={true}
-                    smooth={true}
                     offset={1}
                     duration={1000}
                     onClick={() => onClose(false)}
