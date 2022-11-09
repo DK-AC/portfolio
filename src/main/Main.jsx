@@ -4,6 +4,7 @@ import styleContainer from '../common/styles/Container.module.scss'
 import avatar from './../assets/image/avatar.jpg'
 import {Particle} from '../common/components/particle'
 import {Fade} from 'react-awesome-reveal'
+import ReactTypingEffect from 'react-typing-effect'
 
 
 export const Main = () => {
@@ -22,7 +23,7 @@ export const Main = () => {
                             <div className={style.intro}>
                                 <span>Hi there</span>
                                 <h1>I am <span>Denis Katsai</span></h1>
-                                <p>A Frontend Developer</p>
+                                <ReactTypingEffect text={['Frontend Developer']} className={style.typingText}/>
                             </div>
                         </Fade>
 
