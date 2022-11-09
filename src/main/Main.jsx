@@ -5,6 +5,7 @@ import avatar from './../assets/image/avatar.jpg'
 import {Particle} from '../common/components/particle'
 import {Fade} from 'react-awesome-reveal'
 import ReactTypingEffect from 'react-typing-effect'
+import Tilt from 'react-parallax-tilt'
 
 
 export const Main = () => {
@@ -23,7 +24,8 @@ export const Main = () => {
                             <div className={style.intro}>
                                 <span>Hi there</span>
                                 <h1>I am <span>Denis Katsai</span></h1>
-                                <ReactTypingEffect text={['Frontend Developer']} className={style.typingText}/>
+                                <ReactTypingEffect text={['Frontend Developer']}
+                                                   className={style.typingText}/>
                             </div>
                         </Fade>
 
@@ -31,10 +33,12 @@ export const Main = () => {
 
                     <div
                         className={`${style.heroBannerRight} ${style.dTableCell} ${style.vAlignMiddle}`}>
-                        <div className={style.heroRight}>
-                            <img src={avatar} alt="avatar"/>
-                            <span></span>
-                        </div>
+                        <Tilt>
+                            <div className={style.heroRight}>
+                                <img src={avatar} alt="avatar"/>
+                                <span></span>
+                            </div>
+                        </Tilt>
                     </div>
                 </div>
             </div>
