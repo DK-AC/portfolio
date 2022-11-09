@@ -8,5 +8,16 @@ body {
     font: 400 14px/1.8 'Poppins', sans-serif;
     color: $textColor;
     overflow-x: hidden;
-    background-color: $bgColor;
+}
+
+.App {
+    > div {
+        &:nth-child(n) {
+            background-color: $bgSecondColor;
+        }
+
+        &:nth-child(2n) {
+            background-color: $bgColor;
+        }
+    }
 }

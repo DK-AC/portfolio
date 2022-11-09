@@ -2,9 +2,8 @@
 
 .header {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     align-items: center;
-    background-color: $bgSecondColor;
     padding: 20px;
     position: fixed;
     width: 100%;

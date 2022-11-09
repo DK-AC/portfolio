@@ -5,8 +5,6 @@
 .footerBlock {
     text-align: center;
     padding: 40px 0;
-    color: $textColor;
-    background: $bgColor;
 
     .footerContainer {
         @include columnFlexStart();

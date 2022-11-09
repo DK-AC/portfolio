@@ -24,7 +24,7 @@ export const Main = () => {
                             <div className={style.intro}>
                                 <span>Hi there</span>
                                 <h1>I am <span>Denis Katsai</span></h1>
-                                <ReactTypingEffect text={['Frontend Developer']}
+                                <ReactTypingEffect text={['Frontend Developer.']}
                                                    className={style.typingText}/>
                             </div>
                         </Fade>
