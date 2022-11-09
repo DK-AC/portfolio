@@ -1,28 +1,23 @@
 import React, {useEffect, useState} from 'react'
 import style from './Header.module.scss'
-import {Nav} from './nav'
 import {BurgerNav} from './burgerNav'
+import {Nav} from './nav'
 
 export const Header = () => {
 
-    const [isMobile, setIsMobile] = useState(false)
+    const [width, setWidth] = useState(window.innerWidth)
 
-    const handleResize = () => {
-        if (window.innerWidth < 720) {
-            setIsMobile(true)
-        } else {
-            setIsMobile(false)
-        }
+    const updateDimensions = () => {
+        setWidth(window.innerWidth)
     }
-
     useEffect(() => {
-        window.addEventListener('resize', handleResize)
-    })
-
+        window.addEventListener('resize', updateDimensions)
+        return () => window.removeEventListener('resize', updateDimensions)
+    }, [])
 
     return (
         <div className={style.header}>
-            {isMobile ? <BurgerNav/> : <Nav/>}
+            {width < '720' ? <BurgerNav/> : <Nav/>}
         </div>
     )
 }
