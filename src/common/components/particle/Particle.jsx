@@ -10,17 +10,11 @@ export const Particle = () => {
         await loadFull(engine)
     }, [])
 
-    const particlesLoaded = useCallback(async container => {
-        await console.log(container)
-    }, [])
-
-
     return (
         <Particles
             className={style.tsParticles}
             id="tsparticles"
             init={particlesInit}
-            loaded={particlesLoaded}
             options={{
                 fullScreen: {
                     zIndex: 0,
@@ -34,19 +28,15 @@ export const Particle = () => {
                 fpsLimit: 120,
                 interactivity: {
                     events: {
-                        onClick: {
-                            enable: true,
-                            mode: 'push',
-                        },
                         onHover: {
                             enable: true,
                             mode: 'repulse',
                         },
-                        resize: true,
+                        resize: false,
                     },
                     modes: {
                         push: {
-                            quantity: 4,
+                            quantity: 3,
                         },
                         repulse: {
                             distance: 200,
@@ -80,7 +70,7 @@ export const Particle = () => {
                     },
                     number: {
                         density: {
-                            enable: true,
+                            enable: false,
                             area: 800,
                         },
                         value: 50,
