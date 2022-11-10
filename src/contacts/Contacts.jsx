@@ -29,6 +29,7 @@ export const Contacts = () => {
                     alert("FAILED...", error);
                 }
             );
+        e.target.reset();
     };
 
 
