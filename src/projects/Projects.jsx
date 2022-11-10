@@ -19,25 +19,29 @@ export const Projects = () => {
         backgroundImage: `url(${movies})`,
     }
 
-    const loremDescription = `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet aspernatur blanditiis consequatur culpa, cumque deserunt dolore doloribus eligendi eos est fuga molestiae natus non placeat quae quas, quisquam similique velit.`
-
     return (
         <div id={'projects'} className={style.projectsBlock}>
             <div className={`${styleContainer.container} ${style.projectsContainer}`}>
                 <Title name={'projects'}/>
                 <div className={style.projects}>
+                    <Project title={'Todolist'}
+                             description={`A web service for managing tasks. Tasks can be placed into projects, sorted by filter, assigned labels, edited.`}
+                             style={cardsImage}
+                    />
                     <Project title={'Social Network'}
-                             description={loremDescription}
+                             description={`An online platform that is used for communication, dating, creating social relationships between people.`}
                              style={socialNetworkImage}
                     />
                     <Project title={'Movies'}
-                             description={loremDescription}
+                             description={`Movie and TV Series Search Site`}
                              style={MoviesImage}
                     />
                     <Project title={'Cards'}
-                             description={loremDescription}
+                             description={`Cards is a learning application for memorizing information using flashcards.`}
                              style={cardsImage}
                     />
+
+
                 </div>
             </div>
         </div>
