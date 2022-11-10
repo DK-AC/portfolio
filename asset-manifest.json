@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.2de2c395.css",
-    "main.js": "/portfolio/static/js/main.b980b674.js",
+    "main.js": "/portfolio/static/js/main.33dca232.js",
     "static/media/Movies.png": "/portfolio/static/media/Movies.2ecf399d3128bf71ee41.png",
     "static/media/SocialNetwork.png": "/portfolio/static/media/SocialNetwork.dce59ff847a05acc71a9.png",
     "static/media/avatar.jpg": "/portfolio/static/media/avatar.d264dc1c7d262a1b5600.jpg",
     "static/media/Cards.png": "/portfolio/static/media/Cards.9822b3b8507e50898647.png",
+    "static/media/Todolist.png": "/portfolio/static/media/Todolist.47b04c0a3f6999ecc1b4.png",
     "static/media/react-svgrepo-com.svg": "/portfolio/static/media/react-svgrepo-com.fdd3331d261ad6d5e1c92448737aa2aa.svg",
     "static/media/axios-seeklogo.com.svg": "/portfolio/static/media/axios-seeklogo.com.ee17ffdf661d2d72cdf2a68327202a1f.svg",
     "static/media/redux-svgrepo-com.svg": "/portfolio/static/media/redux-svgrepo-com.609190d142776d97540d56376fce6a2c.svg",
@@ -16,10 +17,10 @@
     "static/media/material-ui-svgrepo-com.svg": "/portfolio/static/media/material-ui-svgrepo-com.456bfb02539777f812137c514d397868.svg",
     "index.html": "/portfolio/index.html",
     "main.2de2c395.css.map": "/portfolio/static/css/main.2de2c395.css.map",
-    "main.b980b674.js.map": "/portfolio/static/js/main.b980b674.js.map"
+    "main.33dca232.js.map": "/portfolio/static/js/main.33dca232.js.map"
   },
   "entrypoints": [
     "static/css/main.2de2c395.css",
-    "static/js/main.b980b674.js"
+    "static/js/main.33dca232.js"
   ]
 }
