@@ -25,7 +25,7 @@ export const Particle = () => {
                         value: 'transparent',
                     },
                 },
-                fpsLimit: 120,
+                fpsLimit: 60,
                 interactivity: {
                     events: {
                         onHover: {
@@ -59,7 +59,7 @@ export const Particle = () => {
                         enable: true,
                     },
                     move: {
-                        directions: 'none',
+                        directions: 'coral',
                         enable: true,
                         outModes: {
                             default: 'bounce',
@@ -73,7 +73,7 @@ export const Particle = () => {
                             enable: false,
                             area: 800,
                         },
-                        value: 50,
+                        value: 30,
                     },
                     opacity: {
                         value: 0.5,
@@ -82,7 +82,7 @@ export const Particle = () => {
                         type: 'circle',
                     },
                     size: {
-                        value: {min: 1, max: 5},
+                        value: {min: 1, max: 3},
                     },
                 },
                 detectRetina: true,

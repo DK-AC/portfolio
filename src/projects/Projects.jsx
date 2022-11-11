@@ -29,24 +29,29 @@ export const Projects = () => {
                 <Title name={'projects'}/>
                 <div className={style.projects}>
                     <Project title={'Todolist'}
-                             href={'https://github.com/DK-AC/TodoList'}
+                             projectLink={'https://github.com/DK-AC/TodoList'}
                              description={`A web service for managing tasks. Tasks can be placed into projects, sorted by filter, assigned labels, edited.`}
                              style={TodolistImage}
+                             href={'https://dk-ac.github.io/TodoList/'}
                     />
                     <Project title={'Social Network'}
                              description={`An online platform that is used for communication, dating, creating social relationships between people.`}
                              style={socialNetworkImage}
-                             href={'https://github.com/DK-AC/social-network-ts'}
+                             projectLink={'https://github.com/DK-AC/social-network-ts'}
+                             href={'https://dk-ac.github.io/social-network-ts'}
+
                     />
                     <Project title={'Movies'}
                              description={`Movie and TV Series Search Site`}
                              style={MoviesImage}
-                             href={'https://github.com/DK-AC/movies'}
+                             projectLink={'https://github.com/DK-AC/movies'}
+                             href={'https://dk-ac.github.io/movies/'}
                     />
                     <Project title={'Cards'}
-                             href={'https://github.com/DK-AC/Cards'}
+                             projectLink={'https://github.com/DK-AC/Cards'}
                              description={`Cards is a learning application for memorizing information using flashcards.`}
                              style={cardsImage}
+                             href={'https://dk-ac.github.io/Cards/'}
                     />
 
 

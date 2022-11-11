@@ -50,6 +50,9 @@
 
         .description {
             @include text($textFontFamily, 13px, 1.8, 300, none, 0);
+            a{
+                color:$primaryColor;
+            }
         }
     }
 }
