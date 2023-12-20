@@ -3,7 +3,7 @@ import styleContainer from '../common/styles/Container.module.scss'
 import style from './Projects.module.scss'
 import {Project} from './project'
 import {Title} from '../common/components/title'
-import cards from './../assets/image/Cards.png'
+import cards from './../assets/image/cards.png'
 import socialNetwork from './../assets/image/SocialNetwork.png'
 import movies from './../assets/image/Movies.png'
 import todolist from './../assets/image/Todolist.png'
@@ -28,6 +28,12 @@ export const Projects = () => {
             <div className={`${styleContainer.container} ${style.projectsContainer}`}>
                 <Title name={'projects'}/>
                 <div className={style.projects}>
+                    <Project title={'Cards'}
+                             projectLink={'https://github.com/AlexeYankov/LearningCards'}
+                             description={`Cards is a learning application for memorizing information using flashcards.`}
+                             style={cardsImage}
+                             href={'https://learning-cards-beige.vercel.app/'}
+                    />
                     <Project title={'Todolist'}
                              projectLink={'https://github.com/DK-AC/TodoList'}
                              description={`A web service for managing tasks. Tasks can be placed into projects, sorted by filter, assigned labels, edited.`}
@@ -47,14 +53,6 @@ export const Projects = () => {
                              projectLink={'https://github.com/DK-AC/movies'}
                              href={'https://dk-ac.github.io/movies/'}
                     />
-                    <Project title={'Cards'}
-                             projectLink={'https://github.com/DK-AC/Cards'}
-                             description={`Cards is a learning application for memorizing information using flashcards.`}
-                             style={cardsImage}
-                             href={'https://dk-ac.github.io/Cards/'}
-                    />
-
-
                 </div>
             </div>
         </div>
