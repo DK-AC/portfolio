@@ -10,7 +10,9 @@ import githubIcon from './../assets/icons/github-svgrepo-com.svg'
 import scssIcon from './../assets/icons/scss2-svgrepo-com.svg'
 import reduxIcon from './../assets/icons/redux-svgrepo-com.svg'
 import jestIcon from './../assets/icons/jest-svgrepo-com.svg'
-import axiosIcon from './../assets/icons/axios-seeklogo.com.svg'
+import axiosIcon from './../assets/icons/axios.svg'
+import webpackIcon from './../assets/icons/webpack.svg'
+import styledComponentsIcon from './../assets/icons/styledcomponents.svg'
 import {Fade} from 'react-awesome-reveal'
 
 export const Skills = () => {
@@ -22,13 +24,15 @@ export const Skills = () => {
                 <Fade>
                     <div className={style.skills}>
                         <Skill title={'react'} icon={reactIcon}/>
-                        <Skill title={'redux thunk / toolkit'} icon={reduxIcon}/>
+                        <Skill title={'redux thunk / toolkit / rtk query'} icon={reduxIcon}/>
                         <Skill title={'javascript / ts'} icon={typescriptIcon}/>
                         <Skill title={'axios / rest api'} icon={axiosIcon}/>
                         <Skill title={'material / ant'} icon={materialIcon}/>
                         <Skill title={'html & css / scss'} icon={scssIcon}/>
                         <Skill title={'tdd / jest / storybook'} icon={jestIcon}/>
                         <Skill title={'git / github'} icon={githubIcon}/>
+                        <Skill title={'webpack'} icon={webpackIcon}/>
+                        <Skill title={'styled components'} icon={styledComponentsIcon}/>
                     </div>
                 </Fade>
             </div>
